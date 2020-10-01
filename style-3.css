@@ -1,0 +1,228 @@
+/* CSS used here will be applied after bootstrap.css */
+html,body {
+	height:100%;
+    
+}
+
+.navbar { 
+    -webkit-transition:padding 0.2s ease;
+    -moz-transition:padding 0.2s ease; 
+    -o-transition:padding 0.2s ease;        
+    transition:padding 0.2s ease;
+    background:transparent !important;
+    box-shadow: 0 5px 5px -5px #333;
+}
+
+.affix {
+    padding-top: 0.2em !important;
+    padding-bottom: 0.2em !important;
+    -webkit-transition:padding 0.2s linear;
+    -moz-transition:padding 0.2s linear;  
+    -o-transition:padding 0.2s linear;         
+    transition:padding 0.2s linear;
+    background:#fff !important;
+    box-shadow: 0 5px 5px -5px #222;
+}
+
+a.navbar-brand {
+    font-family: 'Leckerli One', cursive;
+    font-size:25px;
+    font-weight: bold;
+}
+
+a.navbar-brand {
+    color: #333 !important;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.affix a.navbar-brand {
+    color: red !important;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.navbar-nav .nav-item > a{  
+    color:#222 !important;
+    font-weight:bold !important;
+    text-transform: uppercase;
+    font-size:16px;
+    
+}
+.affix .navbar-nav .nav-item > a{
+    color:#666 !important;
+    font-weight:bold !important;
+    text-transform: uppercase;
+    font-size:16px;
+    
+}
+
+.home-content >h1 {
+    font-family: 'Leckerli One', cursive;
+    font-size:30px;
+}
+.header-wrapper {
+    height: 100vh;
+}
+.header-content {
+    padding-top:50vh;
+    
+}
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.carousel-caption > h2 {
+    font-size:40px;
+    font-weight:bold;
+}
+.carousel-caption > .lead{
+    font-size:25px;
+}
+
+.carousel-arrow {
+    color:#fff !important;
+    font-size:60px !important;
+}
+section {
+    min-height:calc(100% - 70px);
+}
+
+.services-section {
+    background-color:#fcfbf7;
+}
+
+.service-deck > .card:hover{ 
+    box-shadow: 1px 8px 20px grey;
+    -webkit-transition:  box-shadow .6s ease-in;
+}
+.service-deck > .card > .card-body > .card-title > a{
+    font-size:20px;
+    font-weight:bold;
+    color:#666 !important;
+    text-transform: uppercase;
+    
+}
+.service-deck > .card > .card-img-top > i{
+    color:#b7a10b !important;
+}
+.service-deck > .card > .card-body > .card-title > a:hover {
+    text-decoration: none;
+    color:#b7a10b !important;
+}
+
+.section-heading {
+    font-size:35px;
+    padding-top:45px;
+    padding-bottom:45px;
+    font-weight:bold;
+    text-align:center;
+}
+
+.download-section {
+    padding-top:35px;
+    padding-bottom:35px;
+}
+
+.btn-google,
+.btn-ios{
+    background-color:#222 !important;
+    color:#fff;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:15px;
+    padding-right:15px;
+    display: inline-flex;
+    align-items: center; 
+}
+
+.btn-ios > span,
+.btn-google >span {
+    font-weight:bold;
+    padding-left:10px;
+}
+.dowloand-links > li > a:hover {
+    color:#DB4437;
+    text-decoration:none;
+    
+}
+.feedback-section {
+    
+    background-position: center;
+    background-size:cover;
+}
+.feedback-deck {
+    margin-top:45px;
+}
+.feedback-deck > .card {
+    clear:both;
+}
+.feedback-deck > .card >.card-body{
+    padding-top:50px;
+    
+}
+.feedback-deck > .card > .card-img-top {
+    height:100px;
+    width:100px;
+    border:1px solid #eee !important;
+    position: absolute;
+    margin-top:-50px;
+    margin-left:15px;
+    margin-bottom:10px !important;
+}
+.feedback-deck > .card > .card-body > .card-text{
+    padding-top:15px;
+    padding-bottom:15px;
+}
+.feedback-deck > .card > .card-body > .card-title {
+    font-size:20px;
+    font-weight:bold;
+}
+
+.footer-section {
+    background-color:#222;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.copyright-text > a{
+    color:#fff;
+}
+.copyright-text > a:hover {
+    text-decoration:none;
+    color:#eee;
+}
+/*Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .feedback-deck > .card {
+        margin-bottom:60px;
+    }
+}
+@media (min-width: 576px) {
+   
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
+
