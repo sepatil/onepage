@@ -15,5 +15,5 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
           server: ftp.sepatil.in
-          username: portfolio@projects.sepatil.in
+          username: onepage@projects.sepatil.in
           password: ${{ secrets.FTP_ONEPAGE_PASSWORD }}
